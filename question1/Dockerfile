@@ -13,7 +13,7 @@ RUN chmod +x /usr/src/DBScripts/run-initialization.sh
 
 # Set environment variables, not to have to write them with docker run command
 # Note: make sure that your password matches what is in the run-initialization script 
-ENV SA_PASSWORD CorrectHorseBatteryStapleFor$
+ENV SA_PASSWORD Password1$
 ENV ACCEPT_EULA Y
 ENV MSSQL_PID Express
 
